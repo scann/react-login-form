@@ -5,7 +5,6 @@ import ReactDOM from 'react-dom';
 // Theme
 import './theme/init';
 
-// App
-import { LoginPage } from './components/LoginPage';
+const start = <div className = 'start'>Добро пожаловать!</div>;
 
-ReactDOM.render(<LoginPage />, document.getElementById('app'));
+ReactDOM.render(start, document.getElementById('app'));
