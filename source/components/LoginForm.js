@@ -20,7 +20,7 @@ export class LoginForm extends Component {
 
         const disabledButtonStyle = cx({
             [ Styles.disabledButton ]: isSubmitting,
-        })
+        });
 
         const submittingMessage = isSubmitting ? 'Вход...' : 'Войти';
 
